@@ -110,3 +110,4 @@ function zoomImage(image) {
         modal.remove();
     };
 }
+

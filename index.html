@@ -356,31 +356,55 @@
         </div>
     </div>
 </section>
+
+
 <!-- 
 contact section design -->
 <section class="contact" id="contact">
     <h2 class="heading">Contact<span> Me!</span></h2>
-    <form action="#">
-        <div class="input-box">
-            <input type="text" placeholder="Full Name">
-            <input type="email" placeholder="Email Address">
+    <form action="https://formsubmit.co/wijeweeranuwangi@gmail.com" method="POST">
+                <div class="input-box">
+            <input type="text" name="name"  placeholder="Full Name">
+            <input type="email" name="email"  placeholder="Email Address">
         </div>
         <div class="input-box">
-            <input type="number" placeholder="Mobile Number">
-            <input type="text" placeholder="Email Subject">
+            <input type="tel" name="mobileNumber" placeholder="Mobile Number">
+            <input type="text" name="emailSubject" placeholder="Email Subject">
         </div>
-        <textarea name="" id="" cols="30" rows="10"placeholder="Your Message"></textarea>
-        <input type="submit"value="Send Message" class="btn">
-
+        <textarea name="message" cols="30" rows="10" placeholder="Your Message"></textarea>
+        <input type="submit" value="Send Message" class="btn">
     </form>
 </section>
+
 <!-- scroll-reveal -->
 <script src="https://unpkg.com/scrollreveal"></script>
+
+<!-- ==smtpjs====
+<script src="https://smtpjs.com/v3/smtp.js"></script>
+<script>
+    function sendEmail(){
+    Email.send({
+        Host : "smtp.gmail.com",
+        Username : "wijeweeranuwangi@gmail.com",
+        Password : "Nuwa19971127",
+        To : 'lidnyamelia21@gmail.com',
+        From : document.getElementById("email").value,
+        Subject : "New contact  form enquiry",
+        Body : "And this is the body"
+    }).then(
+      message => alert(message)
+    );
+}
+</script> -->
 
 <!-- typed js -->
 <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
 <!-- custom-js -->
 
     <script src="index.js"></script>
+
+
+
 </body>
 </html>
+
