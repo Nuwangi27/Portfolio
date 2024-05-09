@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet"href="index.css">
+    <!-- box-icons -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+
+</head>
+<body>
+    <!-- header design -->
+    <header  class="header">
+    <a href="#" class="logo">Portfolio</a>
+    <i class='bx bx-menu'id ="menu-icon"></i>
+
+    <nav class="navbar">
+        <a href="#home" class="active"> Home</a>
+        <a href="#about">About</a>
+        <a href="#extra_activities"> Extra activities</a>
+        <a href="#skills"> Skills</a>
+        <a href="#portfolio"> Portfolio</a>
+        <a href="#contact"> Contact</a>
+    </nav>
+    </header>
+<!-- home section design -->
+<section class="home" id="home">
+    <div class="home-content">
+        <h3>Hello, It's me</h3>
+        <h1>Nuwangi Wijeweera</h1>
+        <h3>And  I'm a <span class="multiple-text"> </span></h3>
+        <p>I am a driven individual adept at both independent and collaborative work,
+             dedicated to contributing to a shared objective through innovative software 
+             solutions while continually enhancing my skills and expertise</p>
+    
+         <div class="social-media">
+            <a href="https://www.linkedin.com/in/nuwangi-wijeweera/"><i class='bx bxl-linkedin-square' ></i></a>
+            <a href="https://github.com/Nuwangi27"><i class='bx bxl-github' ></i></a>
+            <a href="https://www.youtube.com/@nuwangiwijeweera7922"><i class='bx bxl-youtube' ></i></a>
+            <a href="https://www.facebook.com/nuwangi.wijeweera/"><i class='bx bxl-facebook-circle' ></i></a>
+            <a href="https://www.instagram.com/nuwa_27/"><i class='bx bxl-instagram-alt' ></i></a>
+        </div>
+ 
+        <button  class="btn" onclick="downloadPDF()">Download CV</button>
+    </div>
+        <div class="home-image">
+            <img src="images/home01.png" alt="">
+        </div>
+   
+
+</section>
+
+<!-- about design -->
+<section class="about" id="about">
+    <div class="about-img">
+        <img src="images/about01.png"alt="">
+    </div>
+    <div class="about-content">
+        <h2 class="heading">About<span> Me</span></h2>
+        <h3>Frontend Developer!</h3>
+        <p>I am a highly motivated person who is capable of working on my initiative 
+            or as part of a team to serve a common goal effectively and efficiently 
+            while seeking a responsible and challenging career to improve my skills 
+            and abilities and gain experience, with a particular focus on creating 
+            software solutions.</p>
+
+    </div>
+</section>
+      <!-- Photo Gallery Sections -->
+
+      <section class="extra_activities" id="extra_activities">
+        <h2 class="heading">Extra <span>Activities</span></h2>
+        <div class="extra_activities-container">
+            <div class="extra_activities-box">
+                <img src="images/gallery/sing5.jpeg" alt="Image 1"onclick="zoomImage(this)"> 
+            </div>
+            <div class="extra_activities-box">
+                <img src="images/gallery/sing2.jpg" alt="Image 2"onclick="zoomImage(this)"> 
+            </div>
+            <div class="extra_activities-box">
+                <img src="images/gallery/sing3.jpg" alt="Image 3"onclick="zoomImage(this)"> 
+            </div>
+            <div class="extra_activities-box">
+                <img src="images/gallery/sing4.jpg" alt="Image 4"onclick="zoomImage(this)"> 
+            </div> 
+            <div class="extra_activities-box">
+                <img src="images/gallery/sing6.jpeg" alt="Image 5"onclick="zoomImage(this)"> 
+            </div> 
+            <div class="extra_activities-box">
+                <img src="images/gallery/sing1.jpg" alt="Image 6"onclick="zoomImage(this)"> 
+            </div>          
+            
+    
+            
+            
+            <div class="extra_activities-box">
+                <img src="images/gallery/chess8.jpg" alt="Image 1" onclick="zoomImage(this)">    
+            </div>
+            <div class="extra_activities-box">
+                <img src="images/gallery/chess2.jpg" alt="Image 2"onclick="zoomImage(this)">  
+            </div>
+            <div class="extra_activities-box">
+                <img src="images/gallery/chess3.jpg" alt="Image 3"onclick="zoomImage(this)">    
+            </div>
+            <div class="extra_activities-box">
+                <img src="images/gallery/chess6.jpg" alt="Image 4"onclick="zoomImage(this)">  
+            </div>
+            <div class="extra_activities-box">
+                <img src="images/gallery/chess5.jpg" alt="Image 5"onclick="zoomImage(this)">    
+            </div>
+            <div class="extra_activities-box">
+                <img src="images/gallery/chess4.jpg" alt="Image 6"onclick="zoomImage(this)">  
+            </div>
+            
+            
+            <div class="extra_activities-box">
+                <img src="images/gallery/zest1.jpg" alt="Image 1" onclick="zoomImage(this)">    
+            </div>
+            <div class="extra_activities-box">
+                <img src="images/gallery/zest2.jpg" alt="Image 2"onclick="zoomImage(this)">  
+            </div>
+            <div class="extra_activities-box">
+                <img src="images/gallery/code2.jpeg" alt="Image 3"onclick="zoomImage(this)">    
+            </div>
+            <div class="extra_activities-box">
+                <img src="images/gallery/zest4.jpg" alt="Image 4"onclick="zoomImage(this)">  
+            </div>
+            <div class="extra_activities-box">
+                <img src="images/gallery/code1.jpeg" alt="Image 5"onclick="zoomImage(this)">    
+            </div>
+            <div class="extra_activities-box">
+                <img src="images/gallery/zest3.jpg" alt="Image 6"onclick="zoomImage(this)">  
+            </div>
+        </div>
+        </section>
+   
+ 
+<!-- skills -->
+<section class="skills" id="skills">
+    <h2 class="heading">My <span>Skills</span></h2>
+    <div class="skills-container">
+        <div class="skills-box">
+            <img src="images/html.png" alt="Image 1"> 
+
+            <div class="skil-layer">
+                 <h4>HTML</h4>
+           </div>
+      </div>
+      <div class="skills-box">
+        <img src="images/css.png" alt="Image 1"> 
+
+                <div class="skil-layer">
+                    <h4>CSS</h4>
+               </div>
+     </div>
+     <div class="skills-box">
+        <img src="images/js.png" alt="Image 1"> 
+
+                <div class="skil-layer">
+                    <h4>Java Script</h4>
+               </div>
+     </div>
+     <div class="skills-box">
+        <img src="images/php.png" alt="Image 1"> 
+
+                <div class="skil-layer">
+                    <h4>PHP</h4>
+               </div>
+     </div>
+     <div class="skills-box">
+        <img src="images/java.png" alt="Image 1"> 
+
+                <div class="skil-layer">
+                    <h4>Java</h4>
+               </div>
+     </div>
+     <div class="skills-box">
+        <img src="images/c.png" alt="Image 1"> 
+
+                <div class="skil-layer">
+                    <h4>C</h4>
+               </div>
+     </div>
+     <div class="skills-box">
+        <img src="images/python.jpeg" alt="Image 1"> 
+
+                <div class="skil-layer">
+                    <h4>Python</h4>
+               </div>
+     </div>
+     <div class="skills-box">
+        <img src="images/react.png" alt="Image 1"> 
+
+                <div class="skil-layer">
+                    <h4>React</h4>
+               </div>
+     </div>
+     <div class="skills-box1">
+        <img src="images/reactnative.png" alt="Image 1"> 
+
+                <div class="skil-layer">
+                    <h4>React Native</h4>
+               </div>
+     </div>
+     <div class="skills-box1">
+        <img src="images/figma.png" alt="Image 1"> 
+
+                <div class="skil-layer">
+                    <h4>Figma</h4>
+               </div>
+     </div>
+     <div class="skills-box1">
+        <img src="images/sql.png" alt="Image 1"> 
+
+                <div class="skil-layer">
+                    <h4>My Sql</h4>
+               </div>
+     </div>
+     <div class="skills-box1">
+        <img src="images/firebase.png" alt="Image 1"> 
+
+                <div class="skil-layer">
+                    <h4>Firebase</h4>
+               </div>
+     </div>
+     <div class="skills-box1">
+        <img src="images/mongo.png" alt="Image 1"> 
+
+                <div class="skil-layer">
+                    <h4>MongoDB</h4>
+               </div>
+     </div>
+     <div class="skills-box1">
+        <img src="images/vs.jpeg" alt="Image 1"> 
+
+                <div class="skil-layer">
+                    <h4>Visula studio</h4>
+               </div>
+     </div>
+     <div class="skills-box1">
+        <img src="images/netbeans.jpeg" alt="Image 1"> 
+
+                <div class="skil-layer">
+                    <h4>Net Beans</h4>
+               </div>
+     </div>
+     <div class="skills-box1">
+        <img src="images/codeb.jpeg" alt="Image 1"> 
+
+                <div class="skil-layer">
+                    <h4>Code Blocks</h4>
+               </div>
+     </div>
+   </div>
+
+</section>
+
+<!-- Portfolio design -->
+<section class="portfolio" id="portfolio">
+    <h2 class="heading">Latest <span>Project</span></h2>
+    <div class="portfolio-container">
+        <div class="portfolio-box">
+            <img src="images/03.jpg  "alt="">
+            <div class="portfolio-layer">
+                <h4>Digital Election System for Sri Lanka (Web Based) </h4>
+                <p>This system will enable Election Commission members to input voters' and 
+                    candidate details, generate result sheets and analyze the results using various 
+                    criteria. </p>
+                      <a href=><i class='bx bx-link-external'></i></a>
+            </div>
+        
+        </div>
+        <div class="portfolio-box">
+            <img src="images/02.jpg "alt="">
+            <div class="portfolio-layer">
+                <h4>E-commerce Musical instrument website</h4>
+                <p>Customers can easily take advantage of the various discounts offered by the store 
+                    and the ability to purchase any type of musical instrument through this website.</p>
+                     <a href="https://github.com/Nuwangi27/ecommerce_website"><i class='bx bx-link-external'></i></a>            </div>
+        
+        </div>
+        <div class="portfolio-box">
+            <img src="images/03.jpg  "alt="">
+            <div class="portfolio-layer">
+                <h4>Mobile app for Complaint and Evidence Management System</h4>
+                <p>This mobile app simplifies complaint reporting and management, 
+                    promoting transparency, accountability, and responsiveness within
+                     organizations.</p>
+                     <a href="https://github.com/Nuwangi27/se-project-react-native-app"><i class='bx bx-link-external'></i></a>         
+                       </div>
+
+        
+        </div>
+        <div class="portfolio-box">
+            <img src="images/02.jpg  "alt="">
+            <div class="portfolio-layer">
+                <h4>Emergency Response Mobile App (Women Safety App) </h4>
+                <p>The app features GPS for location tracking, voice recording for special messages, 
+                    image/video upload for evidence, and a messaging system to alert relevant parties.
+
+                </p>
+                     <a href="https://github.com/Nuwangi27/women-safety-app"><i class='bx bx-link-external'></i></a>            </div>
+        
+        </div>
+        <div class="portfolio-box">
+            <img src="images/03.jpg  "alt="">
+            <div class="portfolio-layer">
+                <h4>E-commerce MERN Stack Project|2024
+                </h4>
+                <p>This MERN stack project showcases proficiency in full-stack development, integrating crucial features like user 
+                    authentication, product management, cart functionality, and 
+                    secure payment processing for a clothing e-commerce platform.</p>
+                    <a href="https://github.com/Nuwangi27/Mern-Stack-E-Commerce-Website"><i class='bx bx-link-external'></i></a>
+            </div>
+        
+        </div>
+        <div class="portfolio-box">
+            <img src="images/02.jpg  "alt="">
+            <div class="portfolio-layer">
+                <h4>Web design</h4>
+                <p>Sign-In-Sign-Up-form</p>
+                     <a href="https://github.com/Nuwangi27/C-Users-User-Downloads-Sign-In-Sign-Up-form"><i class='bx bx-link-external'></i></a>            </div>
+        
+        </div>
+        <div class="portfolio-box">
+            <img src="images/03.jpg  "alt="">
+            <div class="portfolio-layer">
+                <h4>Web design</h4>
+                <p>Lorem ipsum dolor sit amet consectetur
+                    adipisicing elit. Atque vel veritatis in
+                     aliquid! Beatae</p>
+                     <a href="#"><i class='bx bx-link-external'></i></a>            </div>
+        
+        </div>
+        <div class="portfolio-box">
+            <img src="images/02.jpg  "alt="">
+            <div class="portfolio-layer">
+                <h4>Web design</h4>
+                <p>Lorem ipsum dolor sit amet consectetur
+                    adipisicing elit. Atque vel veritatis in
+                     aliquid! Beatae</p>
+                     <a href="#"><i class='bx bx-link-external'></i></a>            </div>
+        
+        </div>
+        <div class="portfolio-box">
+            <img src="images/03.jpg  "alt="">
+            <div class="portfolio-layer">
+                <h4>Web design</h4>
+                <p>Lorem ipsum dolor sit amet consectetur
+                    adipisicing elit. Atque vel veritatis in
+                     aliquid! Beatae</p>
+                     <a href="#"><i class='bx bx-link-external'></i></a>            </div>
+        
+        </div>
+    </div>
+</section>
+<!-- 
+contact section design -->
+<section class="contact" id="contact">
+    <h2 class="heading">Contact<span> Me!</span></h2>
+    <form action="#">
+        <div class="input-box">
+            <input type="text" placeholder="Full Name">
+            <input type="email" placeholder="Email Address">
+        </div>
+        <div class="input-box">
+            <input type="number" placeholder="Mobile Number">
+            <input type="text" placeholder="Email Subject">
+        </div>
+        <textarea name="" id="" cols="30" rows="10"placeholder="Your Message"></textarea>
+        <input type="submit"value="Send Message" class="btn">
+
+    </form>
+</section>
+<!-- scroll-reveal -->
+<script src="https://unpkg.com/scrollreveal"></script>
+
+<!-- typed js -->
+<script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+<!-- custom-js -->
+
+    <script src="index.js"></script>
+</body>
+</html>
