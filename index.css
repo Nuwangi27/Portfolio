@@ -378,6 +378,9 @@ margin: 0.7rem 0;
     html{
         font-size: 55%;
     }
+    .skills-container{
+        grid-template-columns: 2fr;
+    }
 }
 
 @media(max-width:701px){
@@ -390,11 +393,17 @@ margin: 0.7rem 0;
     .portfolio{
         margin-bottom: 7rem;
     }
+    .skills-container{
+        grid-template-columns: 2fr;
+    }
 }
 
 @media(max-width:742px){
 #menu-icon{
     display: block;
+}
+.skills-container{
+    grid-template-columns: 2fr;
 }
 .navbar{
     position: absolute;
@@ -447,6 +456,9 @@ margin: 0.7rem 0;
     .portfolio-container{
         grid-template-columns: 1fr;
     }
+    .skills-container{
+        grid-template-columns: 2fr;
+    }
    
 }
 @media (max-width:450px){
@@ -455,6 +467,9 @@ margin: 0.7rem 0;
     }
     .contact form .input-box input{
         width:100%;
+    }
+    .skills-container{
+        grid-template-columns: 2fr;
     }
 }
 @media(min-width: 701px) {
